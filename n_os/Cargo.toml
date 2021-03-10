@@ -1,0 +1,15 @@
+[package]
+name = "nOS"
+version = "0.1.0"
+authors = ["Shrimp0927 <nguyenhaidang123123@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
